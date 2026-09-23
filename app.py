@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import pickele
+import pickle
 
 with open('diabetes_model.pkl', 'rb') as f:
     model = pickle.load(f)
